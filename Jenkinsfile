@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone Website') {
             steps {
-                git url:'https://github.com/Aryanhac/Capstone-Project'
+                git url:'https://github.com/okcool69/website.git'
             }
         }
 
